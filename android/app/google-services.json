@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "415800135352",
+    "firebase_url": "https://pedidosapp-ef438-default-rtdb.firebaseio.com",
+    "project_id": "pedidosapp-ef438",
+    "storage_bucket": "pedidosapp-ef438.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415800135352:android:3965e6e64e78ba59166e4d",
+        "android_client_info": {
+          "package_name": "com.example.pedidos_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "415800135352-4hql60tpe3iv3ofaslcn1n32ac3s0rsb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGny5nM9TEucKjgjyksYMxrDgkq40PM78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "415800135352-4hql60tpe3iv3ofaslcn1n32ac3s0rsb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415800135352:android:77f39708108eb17a166e4d",
+        "android_client_info": {
+          "package_name": "com.example.pedidos_appv3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "415800135352-4hql60tpe3iv3ofaslcn1n32ac3s0rsb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGny5nM9TEucKjgjyksYMxrDgkq40PM78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "415800135352-4hql60tpe3iv3ofaslcn1n32ac3s0rsb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
