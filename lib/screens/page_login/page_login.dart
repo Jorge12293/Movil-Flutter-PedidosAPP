@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:liquid_swipe/liquid_swipe.dart';
 import 'package:pedidos_appv3/screens/page_login/widgets/liquid_pages.dart';
+import 'package:pedidos_appv3/src/data/firebase/company_service.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -12,13 +13,21 @@ class LoginPage extends StatefulWidget {
 class _LoginPageState extends State<LoginPage> {
   String texto='';
   Color? colorTexto=Colors.blue[100];
+  CompanyService _companyService = CompanyService();
+
   @override
   void initState() {
     super.initState();
     texto='REGISTRARSE';
+    _companyService.listCompanies();
+    print('Cargando Login.....');
   }
   @override
   Widget build(BuildContext context) {
+    
+
+
+   
     return Scaffold(
       body: LiquidSwipe(
         pages: liquidPages,
